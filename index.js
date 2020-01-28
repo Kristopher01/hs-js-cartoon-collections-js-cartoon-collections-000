@@ -40,8 +40,8 @@ function findTheCheese (foods) {
 function wordsWithB(words){
   var B = ["James", "Sally", "Bob", "Billy"];
   for(let i = 0; i < B.length; i++){
-    if (words.includes(B)){
-      return B
+    if (B.startsWith("B")) true{
+      
+    }
     }
   }
-}
